@@ -1,16 +1,20 @@
 import './App.css';
+import logo from './Images/logo.svg';
 
 function App() {
   return (
-    <nav>
-      <h1>my first free camp project</h1>
-      <img src="./Images/logo.svg" alt="logo.svg"/>
-      <ul>
-        <li>Pricing</li>
-        <li>About</li>
-        <li>Contact</li>
-      </ul>
-    </nav>
+    <div>
+        <h1>my first free camp project</h1>
+        <nav>
+          <img  src={logo} alt="logo.svg" className="App-Logo"/>
+          <ul>
+            <li>Pricing</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+    </div>
+    
   );
 }
 
